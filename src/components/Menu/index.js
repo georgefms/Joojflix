@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link} from 'react-router-dom';
+//Import de {^Link} torna os <a><a/> em Link e href para to=''
 import Logo from '../../assets/imagem/Logo1.png';
 import './Menu.css'
 import Button from '../Button';
@@ -8,10 +10,10 @@ import Button from '../Button';
 function Menu() {
     return(
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
             <img className="Logo" src={Logo} alt='aluraFlix Logo'/>
-            </a>
-            <Button as="a" className="ButtonLink" href="/">
+            </Link>
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo Vídeo
             </Button>
         </nav>
