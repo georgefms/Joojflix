@@ -12,7 +12,24 @@ position: relative;
   }
 `;
 
-const Label = styled.label`
+const Label = styled.label``;
+
+Label.Text = styled.span`
+  color: #E5E5E5;
+  height: 57px;
+  position: absolute; 
+  top: 0;
+  left: 16px;
+  
+  display: flex;
+  align-items: center;
+  
+  transform-origin: 0% 0%;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  
+  transition: .1s ease-in-out;
 `;
 
 Label.Text = styled.span`
@@ -70,13 +87,12 @@ const Input = styled.input`
 }
 `;
 
-
 function FormField({
   label, type, name, value, onChange,
 }) {
   const fieldId = `id_${name}`;
   const isTextarea = type === 'textarea';
-  const tag = isTextarea ? 'textarea' : 'input' ;
+  const tag = isTextarea ? 'textarea' : 'input';
 
   return (
     <FormFieldWrapper>
@@ -102,15 +118,14 @@ function FormField({
 FormField.defaultProps = {
   type: 'text',
   value: '',
-  onChange: () => {},
 };
 
 FormField.propTypes = {
   label: PropTypes.string.isRequired,
-  type: PropTypes.string,
   name: PropTypes.string.isRequired,
+  type: PropTypes.string,
   value: PropTypes.string,
-  onChange: PropTypes.func,
+  onChange: PropTypes.func.isRequired,
 };
 
 export default FormField;

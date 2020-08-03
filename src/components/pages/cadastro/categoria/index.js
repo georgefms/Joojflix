@@ -28,16 +28,19 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const urlBack = 'http;://localhost:8080/categorias';
-    fetch(urlBack)
-      .then (async( respostadServidor) => {
-        const resposta = await respostadServidor.json();
-        setCategorias([
-          ...resposta,
-        ]);
-      });
+    if (window.location.href.includes('localhost')) {
+      const URL = 'https://joojflix.herokuapp.com/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
   }, []);
-
   return (
     <PageDefault>
       <h1>
@@ -107,8 +110,7 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-
-      {categorias.length === 0 &&(
+      {categorias.length === 0 && (
         <div>
           Carregando...
         </div>
@@ -116,8 +118,9 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria, indice) => (
+          // eslint-disable-next-line react/no-array-index-key
           <li key={`${categoria}${indice}`}>
-            {categoria.nome}
+            {categoria.titulo}
           </li>
         ))}
       </ul>
