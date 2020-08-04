@@ -1,6 +1,6 @@
 Web version: https://joojflix.vercel.app/ 
 
-<h1>Resumo: <h1/>
+<h1>Resumo: </h1>
 
 Projeto criado durante a #ImersãoReact da Alura, que consiste em um acervo de vídeos do Youtube escolhidos pelo usuário. Criei o Joojflix, uma coletânea de vídeos que eu gosto de assistir. 
 
@@ -30,6 +30,6 @@ Tratamento de erro no cadastro de video
 
 Concertar as PropTypes 
 
-<h1>Agradecimentos:<h1/>
+Agradecimentos:
 Paulo Silveira, Mario Souto, Marco Bruno, Juliana Negreiros e toda equipe Alura envolvida nesse evento maravilhoso.
 
