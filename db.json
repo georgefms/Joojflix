@@ -3,38 +3,31 @@
     {
       "id": 1,
       "titulo": "Vídeos Favoritos",
-      "cor": "#6BD1FF"
-    },
-    {
-      "id": 2,
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Músicas e outros Videos que eu gosto",
+        "url": "/"
       }
     },
     {
+      "id": 2,
+      "titulo": "Videos de Hardware e programação",
+      "cor": "#9cd33b"
+    },
+    {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Filmes",
+      "cor": "orange",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "Uma lista dos filmes que eu mais gosto"
       }
     },
     {
       "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
-    },
-    {
-      "id": 5,
-      "titulo": "Games",
+      "titulo": "Videos Sobre Jogos ",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Videos e canais de jogos que  eu gosto de acompanhar"
       }
     } 
   ],
@@ -89,110 +82,80 @@
           "url": "https://www.youtube.com/watch?v=7QU1nvuxaMA"
         },
         {
-          "id": 8,
-          "categoriaId": 2,
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
           "id": 9,
           "categoriaId": 2,
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Os 3 Livros Que Fizeram Eu Não Desistir da Programação (e o que aprendi com eles)",
+          "url": "https://www.youtube.com/watch?v=Uh0Kn2aXEqY"
         },
         {
           "id": 10,
           "categoriaId": 2,
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Lembra Daquela I.A. Que Programava Sozinha? Então...",
+          "url": "https://www.youtube.com/watch?v=Cr89Oz0TWQM"
         },
         {
           "id": 11,
           "categoriaId": 2,
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Os PROBLEMAS do RYZEN",
+          "url": "https://www.youtube.com/watch?v=UxAVmf6PzVY"
         },
         {
           "id": 12,
           "categoriaId": 2,
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "ENTENDA O QUE É O VRM DA PLACA MÃE, POR CAUSA DELE SEU CPU NÃO EXPLODE",
+          "url": "https://www.youtube.com/watch?v=kh2zYNfj06o"
         },
         {
           "id": 13,
           "categoriaId": 3,
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
-        {
-          "id": 14,
-          "categoriaId": 3,
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
-        {
-          "id": 15,
-          "categoriaId": 3,
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
-        {
-          "id": 16,
-          "categoriaId": 3,
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-        },
-        {
-          "id": 17,
-          "categoriaId": 4,
           "titulo": "Em Ritmo De Fuga | Trailer Dublado",
           "url": "https://www.youtube.com/watch?v=S25X-gFxX9s"
         },
         {
-          "id": 19,
-          "categoriaId": 4,
+          "id": 14,
+          "categoriaId": 3,
           "titulo": "A Arte da Conquista - Trailer Oficial",
           "url": "https://www.youtube.com/watch?v=AZBMd4-jObg"
         },
         {
-          "id":20,
-          "categoriaId": 4,
+          "id": 15,
+          "categoriaId": 3,
           "titulo": "Velozes e Furiosos Desafio em Tóquio - Trailer Oficial [HD 1080p]",
           "url": "https://www.youtube.com/watch?v=dmeFOEcnTBU"
         },
         {
-          "id": 21,
-          "categoriaId": 4,
+          "id": 16,
+          "categoriaId": 3,
           "titulo": "Vingadores: Ultimato | Trailer Legendado",
           "url": "https://www.youtube.com/watch?v=g6ng8iy-l0U"
         }, 
         {
-          "id": 22,
-          "categoriaId": 5,
+          "id": 17,
+          "categoriaId": 4,
           "titulo": "COM KASSADIN NO TIME, A ESPERANÇA É A ÚLTIMA A MORRER | Kami",
           "url": "https://www.youtube.com/watch?v=Y0SQZ_CTqpE"
         },
         {
-          "id": 23,
-          "categoriaId": 5,
+          "id": 18,
+          "categoriaId": 4,
           "titulo": "o dark souls das reviews de jogos",
           "url": "https://www.youtube.com/watch?v=u89XfBFd4Mw&t=2862s"
         },
         {
-          "id": 24,
-          "categoriaId": 5,
+          "id": 19,
+          "categoriaId": 4,
           "titulo": "SHYVANA COM ESSA BUILD VENCE TODAS AS PARTIDAS",
           "url": "https://www.youtube.com/watch?v=SkvvCuQaXl4"
         },
         {
-          "id": 25,
-          "categoriaId": 5,
+          "id": 20,
+          "categoriaId": 4,
           "titulo": "SIGRET V3 - EPIC SEVEN",
           "url": "https://www.youtube.com/watch?v=0GtQO7n8otY"
         },
         {
-          "id": 26,
-          "categoriaId": 5,
+          "id": 21,
+          "categoriaId": 4,
           "titulo": "COMO NÃO DEIXAR UM YASUO JOGAR.MP4",
           "url": "https://www.youtube.com/watch?v=WwQqIwip6oU"
         }

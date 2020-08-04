@@ -1,5 +1,0 @@
-Fazer o textarea funcionar
-Fazer a animação da netflix nos campos do formulário
-fazer os estilos
-Criar uma página para fazer cadastro de pokémons e trazer seus pokémons favoritos dentro dos valores iniciais (ao invés de categorias)
-Tentar criar um card para mostrar isso com styled components
