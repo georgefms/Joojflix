@@ -7,7 +7,7 @@ Projeto criado durante a #ImersãoReact da Alura, que consiste em um acervo de v
 Recursos  Utilizados:
 Além do ReactJS, utilizamos JavaScript, Styled Components, CSS, React Slick, React Router Dom, Prop Types, JSON Server e Node.js.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<i>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</i>
 
 
 Faltam: 
