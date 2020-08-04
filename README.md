@@ -1,11 +1,11 @@
 Web version: https://joojflix.vercel.app/ 
 
-Resumo: 
+<h1>Resumo: <h1/>
 
-    Projeto criado durante a #ImersãoReact da Alura, que consiste em um acervo de vídeos do Youtube escolhidos pelo usuário. Criei o Joojflix, uma coletânea de vídeos que eu gosto de assistir. 
+Projeto criado durante a #ImersãoReact da Alura, que consiste em um acervo de vídeos do Youtube escolhidos pelo usuário. Criei o Joojflix, uma coletânea de vídeos que eu gosto de assistir. 
 
 Recursos  Utilizados:
-    Além do ReactJS, utilizamos JavaScript, Styled Components, CSS, React Slick, React Router Dom, Prop Types, JSON Server e Node.js.
+Além do ReactJS, utilizamos JavaScript, Styled Components, CSS, React Slick, React Router Dom, Prop Types, JSON Server e Node.js.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -30,6 +30,6 @@ Tratamento de erro no cadastro de video
 
 Concertar as PropTypes 
 
-Agradecimentos:
+<h1>Agradecimentos:<h1/>
 Paulo Silveira, Mario Souto, Marco Bruno, Juliana Negreiros e toda equipe Alura envolvida nesse evento maravilhoso.
 
